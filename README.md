@@ -47,3 +47,23 @@ These results indicate that the model explains about **72%** of the variance in 
    ```bash
    git clone https://github.com/your-username/student-grades.git
    cd student-grade-prediction
+2. Install the required dependencies
+   pip install pandas scikit-learn matplotlib
+### Running the Project
+
+1. Ensure the dataset student-mat.csv is available in the same directory as the script.
+2. Run studentGradePrediction.py script
+   python studentGradePrediction.py
+
+### Example Prediction 
+new_data = pd.DataFrame({
+    'studytime': [2],          # 2 hours per week of study time
+    'failures': [0],           # No previous failures
+    'famrel': [5],             # Family relationships rated 5 (good)
+    'freetime': [3],           # 3 hours of free time per day
+    'goout': [4],              # Goes out a lot (4/5 scale)
+    'sex_M': [1],              # Male student (1 for male)
+    'address_U': [0],          # Lives in an urban area (0 for urban)
+    'G1': [12],                # Grade in the first period (out of 20)
+    'G2': [14],                # Grade in the second period (out of 20)
+})
