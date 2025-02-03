@@ -2,9 +2,9 @@
 
 This project aims to predict the final grade (`G3`) of students using various features such as study time, family relationships, and past grades (`G1` and `G2`). The model is built using **Linear Regression** and is evaluated using metrics like **Mean Absolute Error (MAE)** and **R-squared (R²)**.
 
-## Project Overview
+## Overview
 
-In this project, we use a dataset of student performance to build a regression model that predicts the final grade (`G3`). The model leverages several features of the students, such as:
+In this project, I used a dataset of student performance to build a regression model that predicts the final grade (`G3`). The model leverages several features of the students, such as:
 
 - `studytime`: Weekly study time (1-4 scale)
 - `failures`: Number of past failures (0-1 scale)
@@ -18,8 +18,8 @@ In this project, we use a dataset of student performance to build a regression m
 
 ### Key Features
 
-- **Linear Regression Model**: We train a linear regression model to predict the final grade (`G3`) using the features mentioned above.
-- **Evaluation Metrics**: We evaluate the model using:
+- **Linear Regression Model**: I trained a linear regression model to predict the final grade (`G3`) using the features mentioned above.
+- **Evaluation Metrics**: I evaluated the model using:
   - **Mean Absolute Error (MAE)**: Measures the average error between predicted and actual values.
   - **R-squared (R²)**: Measures the proportion of variance in the target variable explained by the features.
 
