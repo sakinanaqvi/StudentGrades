@@ -69,3 +69,5 @@ new_data = pd.DataFrame({
     'G1': [12],                # Grade in the first period (out of 20)
     'G2': [14],                # Grade in the second period (out of 20)
 })
+
+Uses UCI Student Data
