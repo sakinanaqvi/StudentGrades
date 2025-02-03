@@ -48,6 +48,7 @@ These results indicate that the model explains about **72%** of the variance in 
    git clone https://github.com/your-username/student-grades.git
    cd student-grade-prediction
 2. Install the required dependencies
+   ```bash
    pip install pandas scikit-learn matplotlib
 ### Running the Project
 
@@ -56,6 +57,7 @@ These results indicate that the model explains about **72%** of the variance in 
    python studentGradePrediction.py
 
 ### Example Prediction 
+```bash
 new_data = pd.DataFrame({
     'studytime': [2],          # 2 hours per week of study time
     'failures': [0],           # No previous failures
